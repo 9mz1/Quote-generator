@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Instrument Serif', serif;
+}
+
+body {
+    background-color: #EB233F;
 }
 
 .title {
@@ -20,7 +27,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 55px;
+    gap: 80px;
 }
 
 #quoteText {
@@ -30,8 +37,13 @@
 
 button {
     font-size: 1.25rem;
-    border: none;
+    border: #000 solid 2px;
     padding: 20px 75px;
-    border-radius: 10px;
     background-color: transparent;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+button:hover {
+    background-color: #000;
+    color: #EB233F;
 }
