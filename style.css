@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto; 
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 55px;
+}
+
+#quoteText {
+    text-align: center;
+    font-size: 4rem;
+}
+
+button {
+    font-size: 1.25rem;
+    border: none;
+    padding: 20px 75px;
+    border-radius: 10px;
+    background-color: transparent;
+}
