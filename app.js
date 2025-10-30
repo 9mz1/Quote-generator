@@ -16,3 +16,4 @@ function displayQuote(quote){
 };
 
 quoteBtn.addEventListener("click", fetchQuote);
+window.addEventListener("load", fetchQuote);
