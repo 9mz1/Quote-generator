@@ -12,7 +12,7 @@ function fetchQuote() {
 
 
 function displayQuote(quote){
-    quoteText.innerText = quote;
+    quoteText.innerText = `"${quote}"`;
 };
 
 quoteBtn.addEventListener("click", fetchQuote);

@@ -33,6 +33,7 @@ body {
 #quoteText {
     text-align: center;
     font-size: 4rem;
+    padding: 0 3px;
 }
 
 button {
